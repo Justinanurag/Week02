@@ -1,3 +1,4 @@
+/*
 //Classes in javascript
 class Rectangle {
     constructor(width,height,color){
@@ -26,3 +27,21 @@ console.log(area);
 console.log(area2);
 console.log(area3);
 //This variable gives you acces to the current object inside the constructor
+//New variable create a new instance and this variable is refering to that instance
+*/
+
+//Used some js provided classes(date,map)
+/*
+let user={
+    name:"Anurag",
+    age:22
+}
+console.log(user.name);
+
+*/
+//Now by using map class
+const map=new Map();
+map.set('name','Anurag');
+map.set('age',20);
+console.log(map.get('name'));
+console.log(map.get('age'));
